@@ -1,0 +1,79 @@
+/* Ghost Lord Gabi#5156 */
+div[style*='170914719308316672']+.comment strong.user-name,
+div[style*='170914719308316672']+.member-inner span{
+    color: #8bc34a!important;
+}
+
+div[style*='170914719308316672'] .kawaii-tag{
+    background-color: #8bc34a!important;
+    color: white!important;
+}
+/* Ghost Lord Gabi#5156 END */
+
+/* What?!#9701 */
+div[style*='173725081510346762']+.comment strong.user-name,
+div[style*='173725081510346762']+.member-inner span{
+    animation: color 10s infinite alternate!important;
+}
+/* What?!#9701 END */
+
+/* Meteor Strike#7159 */
+
+div[style*='218743943435780096'], a[style*='218743943435780096']{
+    background-image: url('https://media.giphy.com/media/3o85xoi6nNqJQJ95Qc/giphy.gif')!important;
+}
+
+/* Meteor Strike#7159 END */
+
+div[style*='148918744612208641']+.comment strong.user-name,
+div[style*='148918744612208641']+.member-inner span{
+    animation: color 10s infinite!important;
+}
+
+div[style*='170914719308316672'], a[style*='170914719308316672']{
+    background-image: url('https://cdn.discordapp.com/attachments/261950094096596992/354369417376956418/watchertime96.gif')!important;
+}
+
+div[style*='285842237986832385'], a[style*='285842237986832385']{
+    background-image: url('https://cdn.discordapp.com/attachments/345091393812824065/351649278403543040/avatar.gif')!important;
+}
+
+div[style*='148918744612208641'], a[style*='148918744612208641']{
+    background-image: url('https://cdn.discordapp.com/attachments/148103787259756544/354374391699603457/ess.gif')!important;
+}
+
+div[style*='205323052244795393'], a[style*='205323052244795393']{
+    background-image: url('https://cdn.discordapp.com/attachments/162662576956768256/356206460113387530/tenor.gif')!important;
+}
+
+div[style*='283486221832028160'], a[style*='283486221832028160']{
+    background-image: url('https://media.giphy.com/media/fTrfQFREfupR6/giphy.gif')!important;
+}
+
+@keyframes color {
+    0%   {color: #ff0000;}
+    10%  {color: #ff8000;}
+    20%  {color: #ffff00;}
+    30%  {color: #80ff00;}
+    40%  {color: #00ff00;}
+    50%  {color: #00ff80;}
+    60%  {color: #00ffff;}
+    70%  {color: #0080ff;}
+    80%  {color: #0000ff;}
+    90%  {color: #8000ff;}
+    100% {color: #ff0080;}
+}
+
+@keyframes colorAnimation1{
+    from{
+        color: #001000;
+    }to{
+        color: #00ff00;
+    }
+}
+
+[class*='userPopout'] div[style*='205323052244795393'], #user-profile-modal div[style*='205323052244795393']{
+    background-repeat: no-repeat!important;
+    background-position: -18px!important;
+    background-size: 140%!important;
+}

@@ -1,0 +1,14 @@
+.wordmark-2L03Wr::after{
+    content: var(--customTextTitleBar);
+    color: white;
+    white-space: pre;
+    font-size: 12px;
+    display: block;
+    float: right;
+    padding-top: 1%;
+    visibility: visible!important;
+}
+
+.wordmark-2L03Wr{
+    visibility: var(--removeDiscordLogo)!important;
+}

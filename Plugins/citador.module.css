@@ -1,0 +1,22 @@
+.quote-msg .citar-btn.quoting{
+    display: none;
+}
+
+.quote-msg{
+    background-color: var(--mainColor2)!important;
+}
+
+.citar-btn{
+    visibility: hidden!important;
+}
+
+.citar-btn:before{
+    visibility: visible!important;
+    content:'\275D'!important;
+    font-size:15px;
+}
+
+.quote-close{
+    width: 16px!important;
+    height: 16px!important;
+}

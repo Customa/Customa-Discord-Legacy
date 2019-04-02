@@ -1,0 +1,4 @@
+.emoji.jumboable{
+    width: var(--jumboEmoteSize)!important;
+    height: var(--jumboEmoteSize)!important;
+}

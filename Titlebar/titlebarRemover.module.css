@@ -1,0 +1,38 @@
+.wordmark-2L03Wr{
+    display: none;
+}
+
+.titleBar-3_fDwJ{
+    height: 0;
+}
+
+.title-qAcLxz .flex-lFgbSz, #friends .headerBar-cxbhPD .flex-lFgbSz{
+    margin-right: 125px!important;
+}
+
+[class*='winButton']{
+    position: absolute;
+    top: .5%;
+    width: 42px;
+    height: 42px;
+    right: 5px;
+}
+
+.titleBar-3_fDwJ div:nth-child(3){
+    right: 45px;
+}
+
+.titleBar-3_fDwJ div:nth-child(4){
+    right: 85px;
+}
+
+div[class*="titleBar-"]:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 6px;
+    height: 14px;
+    z-index: 3002;
+    -webkit-app-region: drag;
+}

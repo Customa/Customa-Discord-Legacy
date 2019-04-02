@@ -1,0 +1,28 @@
+.editusers-modal .modal-inner, .form-tabcontent{
+    background-color: var(--mainColor1)!important;
+}
+
+.editusers-modal .form-tablinks.active, .editusers-modal .form-tablinks:hover{
+    color: var(--accentColor)!important;
+}
+
+.editusers-modal [class*='header'], .editusers-modal [class*='actions'], .editusers-modal .form-tab, .editusers-modal .form-tablinks.active, .editusers-modal .form-tablinks:hover, .editusers-modal .btn-cancel{
+    background: none!important;
+    background-color: rgba(0,0,0,0)!important;
+}
+
+.editusers-modal [class*='actions']{
+    box-shadow: none!important;
+}
+
+.editusers-modal button{
+    margin-left: 2%!important;
+}
+
+.editusers-modal .btn-save{
+    background-color: var(--accentColor)!important;
+}
+
+.notice-tooltip:after{
+    border-right-color: var(--accentColor)!important;
+}

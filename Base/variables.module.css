@@ -1,0 +1,11 @@
+#bd-customcss-attach-controls::after{
+    white-space: pre;
+    display: block;
+    background-color: var(--accentColor);
+    content: 'Variables:\A\A';
+    margin: 2% 0;
+    padding: 3%;
+    text-align: center;
+    line-height: 1.1;
+    color: white;
+}
