@@ -1,0 +1,8 @@
+.renamer-modal .form [class*="form-"]{
+    background: transparent!important;
+    background-color: rgba(0,0,0,0)!important;
+}
+
+.renamer-modal .modal-inner{
+    background-color: var(--mainColor1)!important;
+}

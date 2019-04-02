@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono|Open+Sans');
+
+:root{
+    --displayTextChannelIcon: none;
+    --displayVoiceChannelIcon: none;
+    --displayEmojiPickerButton: block;
+    --displayMutedChannels: block;
+    --displayUnneededCheckboxedInServerMenu: block;
+    --accentColor: #F44336;
+    --mainColor1: #161616;
+    --mainBackground: #161616;
+    --mainColor2: #212121;
+    --accentMarkColor: rgba(244, 67, 54, 0.4);
+    --font-family: "Open Sans Light";
+    --mentionColor: rgba(255, 193, 7, 0.5);
+    --monospace-font-family: "Fira Mono";
+    --jumboEmoteSize: 50px;
+    --accentRGBAColor: rgba(69, 14, 72, 0.2);
+    --linkColor: #F44336;
+    --customTextTitleBar: ' - Gabis Discord Theme';
+    --visibilityDiscordLogo: hidden;
+    --displayEmbedColorPill: none;
+}

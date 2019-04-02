@@ -1,0 +1,50 @@
+.avatar-small .status,
+[class*='avatar'][class*='xsmall'] [class*='status'] {
+    width: calc(100% + 4px) !important;
+    height: calc(100% + 4px) !important;
+    background: transparent !important;
+    border-radius: 50% !important;
+    top: -4px !important;
+    left: -4px !important;
+    border: 2px solid transparent !important;
+}
+.avatar-small .status-online,
+[class*='avatar'][class*='xsmall'] [class*='statusOnline'] {
+    border-left-color: #43b581 !important;
+}
+.avatar-small .status-idle,
+[class*='avatar'][class*='xsmall'] [class*='statusIdle'] {
+    border-left-color: #faa61a !important;
+}
+.avatar-small .status-dnd,
+[class*='avatar'][class*='xsmall'] [class*='statusDnd'] {
+    border-left-color: #F44336 !important;
+}
+.avatar-small .status-streaming {
+    border-left-color: #643da7 !important;
+}
+.status.status-typing .spinner {
+    animation-name: typing-animation!important;
+    animation-duration: 1s!important;
+    animation-iteration-count: infinite!important; 
+    animation-direction: alternate!important;
+    margin-top: 1px !important;
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 50% !important;
+}
+
+@-webkit-keyframes typing-animation {
+    from{
+        background-color: rgba(0,0,0,0);
+    }to{
+        background-color: rgba(0,0,0,0.7);
+    }
+}
+@keyframes typing-animation {
+    from{
+        background-color: rgba(0,0,0,0);
+    }to{
+        background-color: rgba(0,0,0,0.7);
+    }
+}

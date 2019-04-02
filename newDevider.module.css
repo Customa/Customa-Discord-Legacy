@@ -1,0 +1,15 @@
+.divider span{
+    border: solid 1px rgba(71, 74, 79, 0.4)!important;
+}
+
+.divider-red span{
+    border: solid 1px rgba(244, 67, 54, 0.4)!important;
+}
+
+.divider span{
+    margin-top: -0.8vh!important;
+}
+
+.divider div{
+    display: block!important;
+}

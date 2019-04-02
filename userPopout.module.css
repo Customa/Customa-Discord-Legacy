@@ -1,0 +1,114 @@
+[class*='userPopout'] [class*='avatarWrapper'] [class*='avatarStatus'] {
+    visibility: visible!important;
+    z-index: -1!important;
+    border-radius: 0!important;
+    width: 250px!important;
+    height: 430px!important;
+    top: -22px!important;
+    border: none!important;
+    left: -80px!important;
+    -webkit-filter: brightness(90%)!important;
+    box-shadow: 0 0 0 2.4px rgba(255, 255, 255, .42);
+}
+
+#user-profile-modal .avatar-wrapper .status {
+    border: none;
+    border-radius: 0;
+    width: 540px;
+    height: 210px;
+    visibility: visible!important;
+    -webkit-filter: brightness(90%)!important;
+    right: -368px;
+    bottom: -38px;
+    z-index: -2;
+}
+
+#user-profile-modal .avatar-wrapper a:hover .avatar-profile::before {
+    background-color: rgba(0, 0, 0, .5);
+    content: 'view profile\A picture';
+    text-transform: uppercase;
+    white-space: pre;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 100%;
+    width: 128px;
+    padding: 40.5% 0;
+    text-align: center;
+    display: block;
+}
+
+[class*='headerLive'] {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .4) 100%);
+    border: none!important;
+    margin-bottom: -2.4px!important;
+    z-index: 10;
+}
+
+.user-popout .header .avatar-wrapper.no-hover {
+    z-index: -1!important;
+    background: #282B30;
+    padding: 72px 77px 64px!important;
+    margin: -50px 77px!important;
+    box-shadow: inset 0 52px 0 0 rgba(255, 255, 255, .1);
+}
+
+#user-profile-modal, #user-profile-modal .avatar-wrapper, #user-profile-modal .header, #user-profile-modal .header::after, #user-profile-modal .tab-bar-container, #user-profile-modal .tab-bar-container .tab-bar {
+    background: none;
+}
+
+#user-profile-modal .actions button, #user-profile-modal .discord-tag .bot-tag, #user-profile-modal .discord-tag .kawaii-tag, [class*='userPopout'] [class*='headerText'] [class*='botTag'] {
+    background-color: rgba(0, 0, 0, .2)!important;
+}
+
+[class*='userPopout'] [class*='headerStreaming'] {
+    background-color: #593695!important;
+    box-shadow: inset 0 2px 0 0 rgba(255, 255, 255, .1);
+}
+
+[class*='userPopout'] [class*='header']:not([class*='headerText']):not([class*='headerTag']):not([class*='headerUsername']):not([class*='headerDiscriminator']):not([class*='headerActivityText']):not([class*='headerName']){
+    border-bottom: rgba(255, 255, 255, .42) 2.7px solid!important;
+    background: 0 0!important;
+}
+
+#user-profile-modal .avatar-wrapper .avatar-profile {
+    border: 4px solid rgba(0, 0, 0, .2);
+}
+
+[class*='userPopout'] [class*='avatarNormal'] {
+    border-color: rgba(0, 0, 0, .2);
+}
+
+[class*='userPopout'] {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .5)!important;
+}
+
+#user-profile-modal .activity, #user-profile-modal .tab-bar-container .tab-bar .tab-bar-item {
+    color: #d3d3d3!important;
+}
+
+#user-profile-modal .discord-tag *, #user-profile-modal .tab-bar-container .tab-bar .tab-bar-item.selected, [class*='userPopout'] [class*='headerText'] * {
+    color: #fff!important;
+}
+
+[class*='userPopout'] [class*='headerText'] [class*='headerName'] {
+    font-size: 20px!important;
+    line-height: 27px!important;
+}
+
+#user-profile-modal .avatar-wrapper {
+    overflow: visible;
+    position: absolute;
+}
+
+#user-profile-modal .tab-bar-container {
+    z-index: 1;
+}
+
+#user-profile-modal .header .additional-actions-icon {
+    -webkit-filter: brightness(700%)!important;
+}
+
+[class*='userPopout'] [class*='body'], [class*='userPopout'] [class*='footer'], #user-profile-modal .scroller-wrap, .empty{
+    background-color: #161616!important;
+}

@@ -1,0 +1,16 @@
+.bf-toolbar.bf-hover:hover div:not(.bf-arrow):hover{
+    background: transparent!important;
+    background-color: rgba(0,0,0,0)!important;
+}
+
+.bf-toolbar.bf-hover:hover div:not(.bf-arrow){
+    transition: color 200ms!important;
+}
+
+.bf-toolbar.bf-hover:hover div:not(.bf-arrow):hover{
+    color: var(--accentColor)!important;
+}
+
+.bf-toolbar::before{
+    background-color: var(--mainColor1)!important;
+}

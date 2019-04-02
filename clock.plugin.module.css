@@ -1,0 +1,17 @@
+#clockPluginClock{
+    background: transparent!important;
+    top: 0;
+    right: 14px;
+}
+
+.dv-panel input[type="radio"]:checked + label span{
+    background-color: var(--accentColor)!important;
+}
+
+#dv-settings-panel, #dv-container{
+    background-color: var(--mainColor1)!important;
+}
+
+#dv-container::after{
+    display: none!important;
+}
