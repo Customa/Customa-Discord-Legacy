@@ -1,0 +1,84 @@
+/* .edited{
+    visibility: hidden;
+    margin-left: -30px!important;
+}
+
+.edited::after{
+    content: url('https://raw.githack.com/GhostlyDilemma/Customa/master/Misc/edit_white.svg')!important;
+    visibility: visible;
+} */
+
+:root{
+    --Content__Module__NewEditIcon: '';
+    --Content__EditIcon: url('http://aperiodic.net/phil/tmp/place-mode3.png');
+}
+
+/* WHITE THEME SUPPORT */
+
+:root{
+    --Color__FontColorDarker: #212121;
+    --Color__FontColorDark: #424242;
+    --Color__FontColorBright: #616161;
+}
+
+.esc-text, h2{
+    color: var(--Color__FontColorDarker)!important;
+}
+
+h5{
+    color: var(--Color__FontColorDark)!important;
+}
+
+[class*='desc']{
+    color: var(--Color__FontColorBright)!important;
+}
+
+:root{
+    --Color__Tooltip: #E0E0E0;
+    --Color__FontTooltip: #212121;
+
+    --Display__WhiteThemeBlocker: block;
+}
+
+.tooltip:not(.tooltip-red){
+    background: var(--Color__Tooltip)!important;
+    background-color: var(--Color__Tooltip)!important;
+}
+
+.tooltip-right:not(.tooltip-red)::after{
+    border-right-color: var(--Color__Tooltip)!important;
+}
+
+.tooltip-top:not(.tooltip-red)::after{
+    border-top-color: var(--Color__Tooltip)!important;
+}
+
+.tooltip-bottom:not(.tooltip-red)::after{
+    border-bottom-color: var(--Color__Tooltip)!important;
+}
+
+.tooltip:not(.tooltip-red){
+    color: var(--Color__FontTooltip);
+}
+
+/* TitleWrapper New */
+
+[class*='titleWrapper'] [class*='titleText'] [class*='status']{
+    width: 87vw;
+    z-index: -1!important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 48px;
+    border-radius: 0;
+    margin-left: 0;
+}
+
+[class*='titleWrapper'] [class*='titleText']{
+    overflow: visible;
+    z-index: 0!important;
+}
+
+[class*='titleWrapper'] [class*='titleText']~[class*='directionRow'], [class*='channels-'] [class*='private-channels'] [class*='search-bar-inner'] input, [class*='channels-'][class*='vertical-']{
+    z-index: 50!important;
+}
