@@ -1,4 +1,4 @@
-# This is the Legacy Repository for Customa
+![Customa Logo](https://customa.gitlab.io/Customa-Misc/Logo/ProjectsLogos/Inline/PNG/Customa-Discord-Legacy.png)
 
 Find the **Current Version** here: [Customa-Discord](https://github.com/Customa/Customa-Discord)
 
