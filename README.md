@@ -6,9 +6,9 @@ As I am still too ~~busy~~ lazy to work on the theme website, with a generator w
 First heya and welcome to this GitHub-Repo, thanks for being interested in the development of the theme (or just because I told you to visit it...aaaanyyyways)<br>
 Soooo:<br>
 #### How do I theme?<br>
-`@import url('https://raw.githack.com/GhostLordGabi/GabcordModules/master/{Foldername}(/Unmaintained)/{Modulename}');`
+`@import url('https://raw.githack.com/Customa/Customa-Discord/master/{Foldername}(/Unmaintained)/{Modulename}');`
 How does this look like in the end?<br>
-`@import url('https://raw.githack.com/GhostLordGabi/GabcordModules/master/Base/base.module.css');`<br><br>
+`@import url('https://raw.githack.com/Customa/Customa-Discord/master/Base/base.module.css');`<br><br>
 It is recommended to use the Base theme but most modules should also work without it.<br>
 It is recommended to use *at least* the base package (base folder), but it can be removed, even though other modules might not work then.<br>
 List of Modules + their respective folder(path):
